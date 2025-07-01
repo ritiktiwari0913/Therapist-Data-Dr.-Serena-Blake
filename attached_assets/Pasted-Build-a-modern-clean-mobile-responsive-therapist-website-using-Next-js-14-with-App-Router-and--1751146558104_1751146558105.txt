@@ -1,0 +1,102 @@
+Build a modern, clean, mobile-responsive therapist website using **Next.js 14 with App Router** and **Tailwind CSS** for a fictional psychologist: **Dr. Serena Blake, PsyD**.
+
+---
+
+🛠️ TECH STACK:
+- Next.js 14 (App Router)
+- Tailwind CSS
+- Optional: Shadcn UI for components like Accordion or Form UI
+- No backend needed
+
+---
+
+🎯 DESIGN GOAL:
+Mimic the style of [this reference site](https://main.d1hiqvipguwtuq.amplifyapp.com) with proper layout, spacing, and mobile responsiveness. Use elegant font, soft colors, and enough white space.
+
+---
+
+📄 REQUIRED SECTIONS:
+
+1. **Hero Section**
+   - Full-screen background with sunburst/cloud image
+   - H1: “Compassionate Therapy for Your Healing Journey”
+   - Subheading: “Helping you find clarity, connection, and peace of mind.”
+   - CTA Button: “Book a Free Consult”
+
+2. **About Section**
+   - Left: Profile image from [Freepik link](https://www.freepik.com/free-photo/portrait-young-businesswoman-holding-eyeglasses-hand-against-gray-backdrop_3717378.htm)
+   - Right: Bio text:
+     > Dr. Serena Blake is a licensed clinical psychologist (PsyD) based in Los Angeles, CA, with eight years of experience and over 500 client sessions. She blends evidence-based approaches—like cognitive-behavioral therapy and mindfulness—with compassionate, personalized care to help you overcome anxiety, strengthen relationships, and heal from trauma. Whether you meet in her Maplewood Drive office or connect virtually via Zoom, Dr. Blake is committed to creating a safe, supportive space for you to thrive.
+   - Add badges: 8 Years of Experience • 500+ Sessions • Top Rated
+
+3. **Services Section** (3 Cards in a row with circular images)
+   Use relevant images from Unsplash or Freepik:
+   - **Anxiety & Stress Management**  
+     Learn to manage overthinking, panic, and daily overwhelm using CBT and mindfulness.
+   - **Relationship Counseling**  
+     Improve communication, rebuild trust, and develop deeper connections with your partner.
+   - **Trauma Recovery**  
+     Heal from emotional wounds and build resilience with compassionate, evidence-based care.
+
+4. **FAQ Section** (Accordion)
+   - **Do you accept insurance?**  
+     No, but a superbill is provided for self-submission.
+   - **Are online sessions available?**  
+     Yes—all virtual sessions are held via Zoom.
+   - **What is your cancellation policy?**  
+     Please provide at least 24 hours’ notice to avoid being charged.
+
+5. **Contact Section**
+   Form with the following required fields:
+   - Name
+   - Email
+   - Phone
+   - “What brings you here?” (textarea)
+   - “Preferred time to reach you” (input)
+   - Checkbox: “I agree to be contacted”
+
+   Add validation (inline errors). Use a modern form style with soft borders and clear spacing, as shown in reference image.
+
+---
+
+📍 THERAPIST INFO (use throughout site):
+- **Name**: Dr. Serena Blake, PsyD
+- **Address**: 1287 Maplewood Drive, Los Angeles, CA 90026
+- **Phone**: (323) 555-0192
+- **Email**: serena@blakepsychology.com
+- **Office Hours**:
+  - In-person: Tue & Thu, 10 AM–6 PM
+  - Virtual: Mon, Wed & Fri, 1 PM–5 PM
+- **Fees**:
+  - $200 individual session
+  - $240 couples session
+
+---
+
+📦 FINAL FILES TO PREP:
+- GitHub repo with clean structure
+- Deployed on Vercel
+- 2–3 min Loom or screen recording showing:
+  - Desktop & Mobile view
+  - Contact form validation
+  - Scrolling through all sections
+
+---
+
+✅ PROJECT STRUCTURE:
+- `/app/page.tsx` – main layout
+- `/components/Hero.tsx`
+- `/components/About.tsx`
+- `/components/Services.tsx`
+- `/components/FAQ.tsx`
+- `/components/ContactForm.tsx`
+
+Use Tailwind utility classes for responsiveness (`max-w-7xl mx-auto`, `flex`, `grid`, `gap-6`, `rounded-xl`, `text-center`, etc.)
+
+---
+
+🎯 GOAL:
+Build a polished website that **closely matches the reference design**, uses AI images thoughtfully, and demonstrates design judgment, layout balance, and real-world usability.
+
+---
+
